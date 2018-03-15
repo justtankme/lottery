@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.LotteryAwardMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.domain.model.LotteryAward">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="award_id" jdbcType="INTEGER" property="awardId" />
+    <result column="award_name" jdbcType="VARCHAR" property="awardName" />
+    <result column="award_percent" jdbcType="DECIMAL" property="awardPercent" />
+    <result column="award_num" jdbcType="INTEGER" property="awardNum" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>
